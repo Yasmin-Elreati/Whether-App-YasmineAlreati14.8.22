@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@700&family=Nunito+Sans:ital,wght@0,400;1,900&display=swap');
+body {
+  background-color:#eeeeee;
+  color: #53b2e3;
+
+}
+.col{
+  color:#53b2e3;
+  font-size: x-large;
+}
+.App {
+text-align: center;
+align-items: center;
+font-family: 'Assistant', sans-serif;
+}
+
+.icons{
+  width: 40px;
+  height: 40px;
+  color:#53b2e3;
+}
+.icons-sec{
+  display: grid;
+  grid-template-columns:  3fr 3fr;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+.icon-btn{
+  background-color: #53b2e3;
+  border-radius: 20px;
+    border: 4px  inherit #ffffff ;
+    font-size: 20px;
+    color: #fff;
+  width: 70px;
+  height:60px;
+}
+.intro-sec{
+  align-items: center;
+ background-color: #ffffff;
+}
+.item {
+  margin-top: 20px;
+}
+
+.Cards-sec{
+  display: grid;
+  grid-template-columns:  3fr 3fr;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+.cardtxt{
+  width: 200px;
+  height: 260px;
+  background-color:  #222;
+  border: 8px  inset #4ba6ab ;
+  font-size: 60px;
+  padding: auto;
+  border-radius: 10%;
+  justify-content: space-around;
+  padding-top: 70px; 
+  color:#4ba6ab;
+  
+}
+.custom-select {
+  width: 250px;
+  font-size: x-large;
+  background-color: #ffffff;
+  color: #53b2e3;
+  text-align: center;
+  border-radius: 6px;
+  border: 4px inset #53b2e3;
+  
+}
+.disp-non{
+  display: none;
+}
+
+
+.select{
+  width: 100%;
+  display: flex;
+   justify-content: center;
+  align-items: center;
+  align-content: center;
+  color: #53b2e3;
+}
+.popup{
+  height: 400px;
+  width: 50%;
+  position: absolute;
+  top:25%;
+  right: 25%;
+}
+.input-txt{
+  color:#4ba6ab;
+  width: 150px;
+  height: 35px;
+  font-size: bold;
+  padding: auto;
+  border-radius: 60px;
+  justify-content: space-around;
+ 
+}
+/* picker-color/ */
+input[type=color] {
+  width:35px;
+  height: 35px;
+  border: 3px  solid #53b2e3 ;
+  border-radius: 50px;
+ 
+}
+
+
+.picker-color::-webkit-color-swatch {
+  width: 35px;
+  
+  border-radius: 50px;
+} 
+
+@media only screen and (max-width: 700px) {
+  .icon-btn{
+    width:100px;
+    height:90px;
+  }
+  .icons-sec{
+    display: grid;
+    flex-direction: row;
+    align-items: left;
+    padding-top: 40px; 
+  }
+  .Cards-sec{
+    display: flex;
+    color: #53b2e3;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    border-color: #eeeeee;
+    padding-top: 70px; 
+  }
+  .body-game{
+    display: grid;
+    grid-template-columns: 10fr 10fr;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  
+  
+  
+
+
+  
+}
+

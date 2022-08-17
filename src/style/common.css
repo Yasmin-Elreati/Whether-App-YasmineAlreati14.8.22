@@ -1,0 +1,49 @@
+*{
+    letter-spacing: 0.08rem;
+}
+.bold {
+    font-weight: bold;   
+}
+.input-txt{ 
+     color: #53b2e3;
+    width: 250px;
+    height: 60px;
+    border: 4px  inset #53b2e3 ;
+    border-radius: 6px;
+    font-size:25px ;
+    text-align: center;
+}
+::placeholder {
+    color: #53b2e3;
+    font-size: 25px;
+    text-align: center;
+  }
+
+.bolder {
+    font-weight:900;
+}
+
+.marg {
+    margin: 5px;
+}
+
+.btn {
+
+    background-color: #53b2e3;
+    border: 4px  inherit #ffffff ;
+    height: 60px;
+    width: 220px;
+    font-size: 20px;
+    color: #fff;
+}
+
+
+.header {
+   
+    margin: 90px 0px;
+}
+.br{
+    content: "A" !important;
+    display: block !important;
+    margin-bottom: 10px !important;
+}
