@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Whether-App-YasmineAlreati14.8.22/static/css/main.91f32714.css",
+    "main.js": "/Whether-App-YasmineAlreati14.8.22/static/js/main.01f2dcf7.js",
+    "index.html": "/Whether-App-YasmineAlreati14.8.22/index.html",
+    "main.91f32714.css.map": "/Whether-App-YasmineAlreati14.8.22/static/css/main.91f32714.css.map",
+    "main.01f2dcf7.js.map": "/Whether-App-YasmineAlreati14.8.22/static/js/main.01f2dcf7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91f32714.css",
+    "static/js/main.01f2dcf7.js"
+  ]
+}
